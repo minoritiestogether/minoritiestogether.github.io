@@ -1,0 +1,14 @@
+{
+  "name": "minoritiestogether",
+  "version": "1.0.0",
+  "description": "website for minorites together",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}

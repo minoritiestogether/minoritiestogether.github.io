@@ -1,0 +1,72 @@
+$theme-colors: (
+  "danger": #0000CD,
+  "dark": #456383
+);
+
+$navbar-dark-color: #FCF7F8;
+
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px;
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Crop thumbnail images.
+#gallery {
+  img {
+    height: 75vw;
+    object-fit: cover;
+
+    @media (min-width: $bootstrap-sm) {
+      height: 35vw;
+    }
+
+    @media (min-width: $bootstrap-lg) {
+      height: 18vw;
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  object-fit: cover;
+}
+
+// Crop images in the coursel
+.carousel-item {
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.carousel-caption {
+  color: black;
+}
+
+#gallery {
+  img {
+    height: 75vw;
+    object-fit: cover;
+
+    @media (min-width: $bootstrap-sm) {
+      height: 35vw;
+    }
+
+    @media (min-width: $bootstrap-lg) {
+      height: 18vw;
+    }
+  }
+}
+
+// Crop images in the coursel
